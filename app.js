@@ -1,6 +1,6 @@
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
-const checkbox = document.querySelector("input[name=checkbox1]");
+const checkbox1 = document.querySelector("input[name=checkbox1]");
 const checkbox2 = document.querySelector("input[name=checkbox2]");
 
 checkbox1.addEventListener("change", function () {
