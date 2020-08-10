@@ -15,7 +15,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174896705-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+        dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
@@ -111,6 +111,14 @@
 
     <img src="./images/services-image-2.jpg" class="img-fluid" alt="Responsive image">
 
+    <footer class="footer mb-4 mt-4">
+        <div class="container text-center">
+            <span class="text-muted">Copyright ©
+                <script>document.write(new Date().getFullYear())</script> Visas tiesības aizsargātas! <a
+                    href="./privatuma-politika.html">Privātuma Politika</a></span>
+        </div>
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -126,9 +134,9 @@
     <script src="./app.js"></script>
 
     <script>
-        const checkboxTwo = document.querySelector("input[name=checkbox-two]");
+        const che        ySelector("input[name=checkbox-two]");
 
-        checkboxTwo.addEventListener("change", function () {
+        checkboxTwo.addEventListenefunction() {
             if (this.checked) {
                 localStorage.setItem("chechbox-two", "true");
             } else {
